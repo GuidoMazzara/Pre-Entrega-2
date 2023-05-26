@@ -1,0 +1,329 @@
+
+body{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    color: white;
+    font-size: 5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    margin-top: 70px;
+    display: flex;
+}
+
+
+.foto1{
+    float: left;
+    margin-left: 120px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+.menu, a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 2px;
+    padding: 0;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+a{
+    color: whitesmoke;
+}
+
+ul, li{
+    display: inline-block;
+    outline: 1px;
+    width: 100px;
+    line-height: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+li:hover{
+    background-color: rgb(29, 28, 28);
+    border-radius: 5px;
+}
+
+.texto-foto{
+    margin: 0px;
+    padding: 65px;
+    color: white;
+    margin-left: 0px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.texto-foto2{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.pag-play{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-rec{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: white
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 250px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    cursor: pointer;
+  }
+
+h3, h4{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    
+}
+
+.alex{
+    border-radius: 5px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.alexparrafo{
+    margin: 0px;
+    padding: 100px;
+    color: white;
+    margin-left: 0px;
+    display: flex;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.jamie{
+    border-radius: 5px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 0px;
+}
+.jamieparrafo{
+    margin: 0px;
+    padding: 50px;
+    color: white;
+    margin-left: 0px;
+    display: flex;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: justify;
+}
+.matt{
+    border-radius: 5px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 75px;
+}
+.mattparrafo{
+    margin: 0px;
+    padding: 50px;
+    color: white;
+    margin-left: 0px;
+    display: flex;
+    border-radius: 5px;
+    font-size: 19px;
+    text-align: justify;
+    margin-top: 150px;
+}
+
+.nick{
+    border-radius: 5px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.nickparrafo{
+    margin: 0px;
+    padding: 50px;
+    color: white;
+    margin-left: 0px;
+    display: flex;
+    border-radius: 5px;
+    font-size: 19px;
+    text-align: justify;
+    margin-top: 110px;
+}
+
+.iframes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 35px;
+}
+
+@media screen and (max-width:768px){
+
+    .foto1{
+        text-align: center;
+        width: auto;
+        height: auto;
+        margin-left: 25px;
+    }
+
+    .conteiner{
+        flex-direction: column;
+    }
+
+    
+
+
+    .historiap{
+        flex-direction: column;
+    }
+
+    h3{
+        font-size: xx-large;
+    }
+    
+    .alex{
+        max-width: 750px;
+        margin-left: 5px;
+    }
+
+    .alexparrafo{
+        margin-top: 5px;
+    }
+
+    .jamie{
+        margin: 70px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .matt{
+        margin: 60px;
+        padding: 0;
+        text-align: center;
+    }
+    .mattparrafo{
+        margin-left: 5px;
+    }
+
+    .nick{
+        margin: 85px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .nickparrafo{
+        margin-left:5px;
+        justify-content: center;
+    }
+  }
+  @media screen and (max-width:576px){
+    .conteiner{
+        flex-direction: column;
+    }
+    .foto1{
+        text-align: center;
+        width: 500px;
+        height: 500px;
+        margin-left: 37px;
+    }
+
+    .historiap{
+        flex-direction: column;
+    }
+
+    h3{
+        font-size: xx-large;
+    }
+    
+    .alex{
+        margin-top: 0;
+        max-width: 550px;
+        margin-left: 7px;
+    }
+
+    .alexparrafo{
+        justify-content: center;
+    }
+
+    .jamie{
+        margin: 22px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .matt{
+        max-width: 450px;
+        margin: 35px;
+        padding: 0;
+        text-align: center;
+    }
+    .mattparrafo{
+        margin-left: 55px;
+    }
+
+    .nick{
+        margin: 30px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .nickparrafo{
+        margin-left:5px;
+        justify-content: center;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .iframes{
+    
+    }
+  }
